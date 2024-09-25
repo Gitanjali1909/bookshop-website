@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import About from './components/About'
-import Animate from './components/Animate'
 
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <LandingPage/>
       <Marquee/>
       <About/>
-      <Animate/>
     </div>
   )
 }

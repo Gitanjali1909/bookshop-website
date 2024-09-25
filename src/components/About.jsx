@@ -3,7 +3,7 @@ import '@fontsource/roboto';
 
 function About() {
   return (
-	<div className='w-full py-20 bg-[#6B4226]'>
+	<div className='w-full py-20 bg-[#f79191]'>
 		<h1  style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 300 }} className='text-[3vw] mr-20 ml-12 leading-[3vw] font-bold tracking-tight ' >We believe that every book is a journey waiting to be explored. 
 			Our mission is to connect readers with the stories that inspire, educate, and entertain.</h1>
 			<div className='border-t-[2px] border-[#663718] mb-10 mt-20 flex justify-between items-center '>
