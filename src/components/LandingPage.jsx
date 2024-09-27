@@ -32,7 +32,7 @@ function LandingPage() {
 	}, []);
 
   return (
-    <div className='w-full h-screen pt-1 flex'>
+    <div className='w-full h-screen pt-1 flex bg-[#FFFFFF]'>
       <div className='textstruct w-1/2 mt-72 ml-32'>
         {["discover books", "that open", "new worlds."].map((item, index) => (
           <div className='masker' key={index}>
@@ -41,7 +41,7 @@ function LandingPage() {
                 <div
                   className='w-[8.8vw] h-[4.4vw] mr-[1vw] rounded-md bg-cover bg-center'
                   style={{
-                    backgroundImage: `url("https://i.pinimg.com/736x/39/29/2c/39292ccc9f4a8dc5e70b232686a4109f.jpg")`,
+                    backgroundImage: `url("https://i.pinimg.com/564x/c0/9c/8b/c09c8b227ba2bfeb9290f0e68de90ec4.jpg")`,
                     transform: slideIn ? 'translateX(0)' : 'translateX(-120%)',
                     transition: 'transform 1.5s ease',
                   }}

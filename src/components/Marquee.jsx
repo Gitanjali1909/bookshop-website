@@ -6,7 +6,7 @@ function Marquee() {
     animate: {
       x: ['0%', '-100%'], 
       transition: {
-        duration: 50, 
+        duration: 20, 
         repeat: Infinity, 
         ease: 'linear', 
       },
@@ -14,7 +14,7 @@ function Marquee() {
   };
 
   return (
-    <div className='w-full py-10 bg-[#75b372] overflow-hidden'>
+    <div className='w-full py-10 bg-[#8FB056] overflow-hidden'>
       <motion.div className='flex whitespace-nowrap' variants={marqueeVariants} animate='animate'>
         <h1 className='text-[10vw] leading-none font-semibold uppercase mb-4'>
           Discover New Releases Every Week! Discover New Releases Every Week! Discover New Releases Every Week! 

@@ -4,10 +4,10 @@ import '@fontsource/montserrat';
 
 function Navbar() {
   return (
-    <div className=' fixed z-[999] w-full px-20 py-0 flex font-bold flex-row justify-between items-center mt-[-4vh] ml-[-1vw]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 300 }}>
+    <div className=' fixed z-[999] w-full h-20 px-20 py-0 flex font-bold flex-row justify-between items-center mt-[-1vh] bg-[#8FB056]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 300 }}>
       <div className='logo '>
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="1px" y="1px"
-	 width="70%" viewBox="50 50 1062 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+	 width="50%" viewBox="100 10 1000 708" enable-background="new 0 0 1024 768" xml:space="preserve">
 <path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M295.388824,540.661621 
@@ -308,7 +308,7 @@ M706.682312,456.587769
 z"/>
 </svg>
 </div>
-<div className='flex gap-14 links '>
+<div className='flex gap-14 links mt-5 '>
         {["Explore", "Genres", "Book Club", "New Arrivals", "Contact Us"].map((item, index) => (
           <a key={index} className={'font-light capitalize cursor-pointer text-lg ${index === 4 && "ml-82" : ""}'}>
             {item}
