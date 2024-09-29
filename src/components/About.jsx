@@ -5,28 +5,8 @@ function About() {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <div className='w-full py-20 bg-[#FFFFFF]'>
-      <h1 style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 300 }} className='text-[3vw] mr-20 ml-12 leading-[3vw] font-bold tracking-tight'>
-        We believe that every book is a journey waiting to be explored. <br />
-        Our mission is to connect readers with the stories that inspire, educate, and entertain.
-      </h1>
-      <div className='border-t-[2px] border-zinc-900 mb-10 mt-20 flex justify-between items-center'>
-        <div className='flex flex-col justify-between'>
-          <h3 style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 100 }} className='text-[1.3vw] ml-12 font-bold mt-[1.5vw]'>What We Offer:</h3>
-          <div className='ml-[25vw] -mt-[2.5vw] leading-[1vw]'>
-            <p style={{ fontFamily: 'Roboto, sans-serif', lineHeight:'1.2' }} className='text-[1.2vw] ml-10 mt-[1vw]'>
-              A curated selection of genres to satisfy every reader's taste. <br />
-              Personalized recommendations to help you discover your next favorite book. <br />
-              A community space for book lovers to share their thoughts and insights.
-            </p>
-            <p style={{ fontFamily: 'Roboto, sans-serif', lineHeight:'1.2' }} className='text-[1.2vw] ml-10 mt-[1vw]'>
-              Join us in celebrating the magic of reading! <br />
-              Whether you're a casual reader or a literary enthusiast, we have something special for you.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='w-full border-t-[2px] flex gap-2 border-zinc-900 pt-10'>
+    <div className='w-[95vw] py-20 bg-[#8FB056] rounded-3xl p-10 mx-10 my-20'>
+      <div className='w-full flex h-[30vw]'>
         <div className='w-1/2 ml-16'>
           <h1 className='text-5xl tracking-tight' style={{fontFamily: 'Roboto, sans-serif', fontWeight: 200,}}>Our approach:</h1>
           <button className='flex items-center gap-6 uppercase mt-3 px-5 py-2 bg-zinc-900 rounded-full text-white'>
@@ -69,6 +49,25 @@ function About() {
                 alt="Back"
               />
             </div>
+          </div>
+        </div>
+      </div>
+      <h1 style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 300 }} className='text-[3vw] mr-10 mt-10 ml-14 leading-[3vw] font-bold tracking-tighter'>
+      Dive into stories that ignite your imagination and kindle your passion for reading!
+      </h1>
+      <div className=' ml-2 mt-10 flex justify-between items-center'>
+        <div className='flex flex-col justify-between'>
+          <h3 style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 200 }} className='text-[1.5vw] ml-12 font-bold mt-[1.5vw]'>What We Offer:</h3>
+          <div className='ml-[25vw] -mt-[2.5vw] leading-[1vw]'>
+            <p style={{ fontFamily: 'Roboto, sans-serif', lineHeight:'1.2' }} className='text-[1.5vw] ml-10 mt-[1vw]'>
+              A curated selection of genres to satisfy every reader's taste. <br />
+              Personalized recommendations to help you discover your next favorite book. <br />
+              A community space for book lovers to share their thoughts and insights.
+            </p>
+            <p style={{ fontFamily: 'Roboto, sans-serif', lineHeight:'1.2' }} className='text-[1.5vw] ml-10 mt-[1vw]'>
+              Join us in celebrating the magic of reading! <br />
+              Whether you're a casual reader or a literary enthusiast, we have something special for you.
+            </p>
           </div>
         </div>
       </div>
